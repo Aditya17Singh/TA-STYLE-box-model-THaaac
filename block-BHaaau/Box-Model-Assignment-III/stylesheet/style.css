@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    margin: 30px;
+}
+.dotline{
+    border: 1px dashed silver;
+    border-top: none;
+    width: 450px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+}
+.box{
+    width: 125px;
+    height: 120px;
+    background-color: #DAFAD4;
+    border: 11px solid #ADD8E6;
+    outline: 3px solid black;   
+    box-shadow: 0 0 0 15px #ED7F80;
+    margin-left: 560px;
+    margin-top: 40px;
+}
+.circle1{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color:#DAFAD4;
+    margin-left: 7px;
+    display: inline-block;
+}
+.circle2{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color:#ADD8E6;
+    margin-left: 12px;
+    display: inline-block;
+}
+.circle3{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color:#000000;
+    margin-left: 12px;
+    display: inline-block;
+}
+.circle4{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ED7F80;
+    margin-left: 12px;
+    display: inline-block;
+}
+.parent{
+    font-size: 10px;
+    margin: 40px 300px 30px 520px;
+}
+.dotted{
+    border: 1px dashed silver;
+    border-top: none;
+    width: 450px;
+    margin-top: 40px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.Box1{
+    width: 160px;
+    height:100px;
+    background-color: #CCCCCC;
+    display: inline-block;
+    margin-right: 5px;
+}
+.Box2{
+    width: 160px;
+    height:100px;
+    background-color: #CCCCCC;
+    display: inline-block;
+    margin-right: 5px;
+}
+.Box3{
+    width: 160px;
+    height:100px;
+    background-color: #CCCCCC;
+    display: inline-block;
+}
+.parent1{
+    margin-left: 400px;
+    padding: 10px;
+    border: 3px solid #CCCCCC;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.dot{
+    border: 1px dashed silver;
+    border-top: none;
+    width: 400px;
+    margin-top: 40px;
+}
+.box4{
+    width: 160px;
+    height:100px;
+    background-color: #CCCCCC;
+    display: inline-block;
+    border: 1px solid black;
+}
+.box5{
+    width: 160px;
+    height:100px;
+    background-color: #CCCCCC;
+    display: inline-block;
+    border: 1px solid black;
+}
+.box6{
+    width: 160px;
+    height:100px;
+    background-color: #CCCCCC;
+    display: block;
+    border: 1px solid black;
+}
+.parent2{
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    margin-left: 400px;
+    margin-right: 332px;
+}
+.Box7{
+    width: 160px;
+    height:100px;
+    background-color: #CCCCCC;
+    display: inline-block;
+    border: 1px solid black;
+}
+.Box8{
+    width: 160px;
+    height:100px;
+    background-color: #CCCCCC;
+    display: inline-block;
+    border: 1px solid black;
+}
+.Box9{
+    width: 160px;
+    height:100px;
+    background-color: #CCCCCC;
+    display: inline-block;
+    border: 1px solid black;
+}
